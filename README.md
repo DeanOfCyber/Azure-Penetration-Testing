@@ -23,3 +23,7 @@ Get-AzTenant
 Get-Command -Verb Get -Module Az.* | Select-String VM
 Get-AzVM
 ```
+```powershell
+Get-Command -Verb Get -Module Az.* | Select-String "IP"
+Get-AzPublicIpAddress
+```

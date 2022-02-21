@@ -13,10 +13,13 @@ Install-Module -Name Az
 ```powershell
 Get-Module -ListAvailable Az.*
 Get-Command -Module Az.Accounts
+```
+```powershell
 Get-AzDomain
 Get-AzSubscription
 Get-AzTenant
-
+```
+```powershell
 Get-Command -Verb Get -Module Az.* | Select-String VM
 Get-AzVM
 ```

@@ -3,6 +3,7 @@ Resources for Azure Penetration Testing
 
 ## Check Tenant Availability
 https://o365.rocks/
+\n
 https://login.microsoftonline.com/something.com/v2.0/.well-known/openid-configuration
 
 ## Enumerate Usernames

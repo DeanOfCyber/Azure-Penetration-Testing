@@ -18,7 +18,8 @@ foreach($user in $users)
     $exists = Invoke-RestMethod -Uri "https://login.microsoftonline.com/common/GetCredentialType" -ContentType "application/json" -Method POST -Body (@{"username"="$user"; "isOtherIdpSupported" =  $true}|ConvertTo-Json) | Select -ExpandProperty IfExistsResult
     $properties = [ordered]@{"Username"=$user; "Exists"=$($exists -eq 0 -or $exists -eq 6)}
     New-Object -TypeName PSObject -Property $properties
-}```
+}
+```
 Source: https://o365blog.com/post/desktopsso/
 
 

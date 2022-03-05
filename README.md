@@ -1,6 +1,10 @@
 # Azure Penetration Testing
 Resources for Azure Penetration Testing
 
+## Check Tenant Availability
+https://o365.rocks/
+
+
 ## Installing PS Module
 NOTE: This will take a while!
 

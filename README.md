@@ -5,6 +5,23 @@ Resources for Azure Penetration Testing
 https://o365.rocks/
 
 
+## Enumerate Usernames
+```powershell
+# Set the user names to a variable (or read from .csv etc)
+
+$users=@("valid.user@company.com","valid.user@company.onmicrosoft.com","invalid.user@company.com","valid.user_gmail.com#EXT#@company.onmicrosoft.com")
+
+# Loop trough all users
+
+foreach($user in $users)
+{
+    $exists = Invoke-RestMethod -Uri "https://login.microsoftonline.com/common/GetCredentialType" -ContentType "application/json" -Method POST -Body (@{"username"="$user"; "isOtherIdpSupported" =  $true}|ConvertTo-Json) | Select -ExpandProperty IfExistsResult
+    $properties = [ordered]@{"Username"=$user; "Exists"=$($exists -eq 0 -or $exists -eq 6)}
+    New-Object -TypeName PSObject -Property $properties
+}```
+Source: https://o365blog.com/post/desktopsso/
+
+
 ## Installing PS Module
 NOTE: This will take a while!
 

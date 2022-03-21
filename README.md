@@ -4,6 +4,7 @@ Resources for Azure Penetration Testing
 ## Check Tenant Availability
 https://o365.rocks/
 
+https://login.microsoftonline.com/getuserrealm.srf?login=username@someco.onmicrosoft.com&xml=1
 
 https://login.microsoftonline.com/something.com/v2.0/.well-known/openid-configuration
 

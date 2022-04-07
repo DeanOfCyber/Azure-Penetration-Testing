@@ -11,6 +11,8 @@ NameSpaceType = Federated ==> Federation provider is used
 
 https://login.microsoftonline.com/something.com/v2.0/.well-known/openid-configuration
 
+Provides tenant ID. Useful when SPN credentials are found.
+
 ## Enumerate Usernames
 ```powershell
 # Source: https://o365blog.com/post/desktopsso/

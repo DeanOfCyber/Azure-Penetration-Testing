@@ -13,6 +13,11 @@ https://login.microsoftonline.com/something.com/v2.0/.well-known/openid-configur
 
 Provides tenant ID. Useful when SPN credentials are found.
 
+## Build Usernames
+* LinkedIn
+* PowerMeta
+* FOCA
+
 ## Enumerate Usernames
 ```powershell
 # Source: https://o365blog.com/post/desktopsso/

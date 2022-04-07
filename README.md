@@ -13,6 +13,12 @@ https://login.microsoftonline.com/something.com/v2.0/.well-known/openid-configur
 
 Provides tenant ID. Useful when SPN credentials are found.
 
+## Keys in Public Repos
+https://github.com/trufflesecurity/truffleHog
+https://github.com/michenriksen/gitrob
+https://github.com/zricethezav/gitleaks
+
+
 ## Build Username List
 * LinkedIn
 * PowerMeta

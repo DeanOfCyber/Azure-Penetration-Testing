@@ -19,6 +19,11 @@ Provides tenant ID. Useful when SPN credentials are found.
 * FOCA
 
 ## Enumerate Usernames
+
+https://login.microsoftonline.com/common/oauth2/token  
+https://login.microsoftonline.com/common/GetCredentialType
+
+
 ```powershell
 # Source: https://o365blog.com/post/desktopsso/
 

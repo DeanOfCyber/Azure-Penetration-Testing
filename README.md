@@ -13,7 +13,7 @@ https://login.microsoftonline.com/something.com/v2.0/.well-known/openid-configur
 
 Provides tenant ID. Useful when SPN credentials are found.
 
-## Build Usernames
+## Build Username List
 * LinkedIn
 * PowerMeta
 * FOCA

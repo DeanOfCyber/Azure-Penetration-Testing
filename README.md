@@ -6,6 +6,9 @@ https://o365.rocks/
 
 https://login.microsoftonline.com/getuserrealm.srf?login=username@someco.onmicrosoft.com&xml=1
 
+NameSpaceType = Managed ==> PHS or PTA is used
+NameSpaceType = Federated ==> Federation provider is used
+
 https://login.microsoftonline.com/something.com/v2.0/.well-known/openid-configuration
 
 ## Enumerate Usernames
